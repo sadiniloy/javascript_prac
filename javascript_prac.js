@@ -1,2 +1,5 @@
-var a=prompt("what is your name?");
-document.write("hi " + a +" welcome");
+var day= ["sun","mon","tues", "wed" , "thurs", "fri"];
+//day[6]="sat";
+//day[day.length]="sat";
+day.push("sat")
+document.write(day[6]);
