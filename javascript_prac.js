@@ -1,3 +1,2 @@
-var a="1";
-var b=2;
-document.write(+a+b);
+var a=prompt("what is your name?");
+document.write("hi " + a +" welcome");
